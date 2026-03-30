@@ -19,6 +19,7 @@
 - `contribution-log.md`：贡献日志
 - `decisions.md`：关键决策记录
 - `backlog.md`：待办与候选池
+- `logs/`：阶段性讨论日志与交接记录
 - `templates/`：内部模板
 
 ## 模板体系
