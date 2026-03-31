@@ -18,6 +18,7 @@
 - `dev/changelog.md`
 - `dev/contribution-log.md`
 - `dev/logs/2026-03-30-yinfu-jing-session.md`
+- `dev/logs/2026-03-31-taishang-ganying-session.md`
 
 ## 模板
 
