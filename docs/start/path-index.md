@@ -39,7 +39,6 @@ aliases:
 | 清静经 | `/daoism/starter-texts/qingjing-jing` | `qingjing-jing` | 清静经、常清静经 |
 | 阴符经 | `/daoism/starter-texts/yinfu-jing` | `yinfu-jing` | 阴符经、阴符 |
 | 太上感应篇 | `/daoism/starter-texts/taishang-ganying-pian` | `taishang-ganying-pian` | 感应篇、太上感应篇 |
-| 文昌帝君阴骘文 | `/daoism/starter-texts/wenchang-yinzhiwen` | `wenchang-yinzhiwen` | 阴骘文、文昌帝君阴骘文 |
 | 原典入口 | `/daoism/texts/` | `daoist-texts` | 原典、道家原典 |
 | 道德经导读 | `/daoism/texts/dao-de-jing/` | `dao-de-jing-guide` | 道德经、老子、ddj |
 | 道德经章节索引 | `/daoism/texts/dao-de-jing/chapters` | `dao-de-jing-chapters` | 道德经章节、道德经索引 |
@@ -48,6 +47,7 @@ aliases:
 | 列子导读 | `/daoism/texts/lie-zi/` | `lie-zi-guide` | 列子、liezi |
 | 列子篇章索引 | `/daoism/texts/lie-zi/chapters` | `lie-zi-chapters` | 列子篇章、列子索引 |
 | 道教经典 | `/daoism/daoist-classics/` | `daoist-classics-home` | 道教经典、道教入口 |
+| 文昌帝君阴骘文 | `/daoism/daoist-classics/wenchang-yinzhiwen` | `wenchang-yinzhiwen` | 阴骘文、文昌帝君阴骘文 |
 | 坐忘论 | `/daoism/daoist-classics/zuowang-lun` | `zuowang-lun` | 坐忘论、zuowang lun |
 | 天隐子 | `/daoism/daoist-classics/tianyinzi` | `tianyinzi` | 天隐子、tianyinzi |
 | 易经 | `/yijing/` | `yijing-home` | 周易、yijing |

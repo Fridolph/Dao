@@ -105,9 +105,9 @@ export const contentRegistry = [
   {
     id: 'wenchang-yinzhiwen',
     title: '文昌帝君阴骘文',
-    path: '/daoism/starter-texts/wenchang-yinzhiwen',
+    path: '/daoism/daoist-classics/wenchang-yinzhiwen',
     section: 'daoism',
-    module: 'starter-texts',
+    module: 'daoist-classics',
     category: 'guide',
     aliases: ['阴骘文', '文昌帝君阴骘文', 'wenchang yinzhiwen']
   },

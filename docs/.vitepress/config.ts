@@ -68,8 +68,7 @@ export default defineConfig({
                 { text: '总览', link: '/daoism/starter-texts/' },
                 { text: '清静经', link: '/daoism/starter-texts/qingjing-jing' },
                 { text: '阴符经', link: '/daoism/starter-texts/yinfu-jing' },
-                { text: '太上感应篇', link: '/daoism/starter-texts/taishang-ganying-pian' },
-                { text: '阴骘文', link: '/daoism/starter-texts/wenchang-yinzhiwen' }
+                { text: '太上感应篇', link: '/daoism/starter-texts/taishang-ganying-pian' }
               ]
             },
             { text: '原典入口', link: '/daoism/texts/' },
@@ -103,6 +102,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '总览', link: '/daoism/daoist-classics/' },
+                { text: '文昌帝君阴骘文', link: '/daoism/daoist-classics/wenchang-yinzhiwen' },
                 { text: '坐忘论', link: '/daoism/daoist-classics/zuowang-lun' },
                 { text: '天隐子', link: '/daoism/daoist-classics/tianyinzi' }
               ]

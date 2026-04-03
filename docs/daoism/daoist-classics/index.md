@@ -14,6 +14,7 @@ aliases:
 
 当前优先：
 
+- [文昌帝君阴骘文](/daoism/daoist-classics/wenchang-yinzhiwen)
 - [坐忘论](/daoism/daoist-classics/zuowang-lun)
 - [天隐子](/daoism/daoist-classics/tianyinzi)
 
