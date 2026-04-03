@@ -14,7 +14,7 @@
 
 已完成：
 
-- `/Users/fri/Desktop/personal/Dao/docs/daoism/starter-texts/taishang-ganying-pian.md`
+- `/Users/fri/Desktop/personal/Dao/src/daoism/starter-texts/taishang-ganying-pian.md`
 
 当前状态：
 

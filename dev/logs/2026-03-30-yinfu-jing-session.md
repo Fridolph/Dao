@@ -75,8 +75,8 @@
 
 ### 已完成
 
-- `/Users/fri/Desktop/personal/Dao/docs/daoism/starter-texts/qingjing-jing.md`
-- `/Users/fri/Desktop/personal/Dao/docs/daoism/starter-texts/yinfu-jing.md`
+- `/Users/fri/Desktop/personal/Dao/src/daoism/starter-texts/qingjing-jing.md`
+- `/Users/fri/Desktop/personal/Dao/src/daoism/starter-texts/yinfu-jing.md`
 
 ### 《阴符经》当前状态
 

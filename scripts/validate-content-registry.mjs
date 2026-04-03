@@ -3,8 +3,8 @@ import path from 'node:path'
 import { pathToFileURL } from 'node:url'
 
 const workspaceRoot = process.cwd()
-const docsRoot = path.join(workspaceRoot, 'docs')
-const registryFile = path.join(docsRoot, '.vitepress', 'content-registry.mjs')
+const sourceRoot = path.join(workspaceRoot, 'src')
+const registryFile = path.join(sourceRoot, '.vitepress', 'content-registry.mjs')
 
 const registryModule = await import(pathToFileURL(registryFile).href)
 const entries = registryModule.contentRegistry
@@ -23,11 +23,11 @@ function resolveRouteToSourceFile(routePath) {
   const normalized = routePath.replace(/^\/|\/$/g, '')
 
   if (!normalized) {
-    return path.join(docsRoot, 'index.md')
+    return path.join(sourceRoot, 'index.md')
   }
 
-  const indexFile = path.join(docsRoot, normalized, 'index.md')
-  const directFile = path.join(docsRoot, `${normalized}.md`)
+  const indexFile = path.join(sourceRoot, normalized, 'index.md')
+  const directFile = path.join(sourceRoot, `${normalized}.md`)
 
   if (fs.existsSync(indexFile)) {
     return indexFile

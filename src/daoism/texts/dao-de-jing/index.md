@@ -20,6 +20,8 @@ description: 道家入门的第一站。
 - 第二遍抓核心概念
 - 第三遍结合现实问题回看
 
+![道德经](https://www.fridolph.top/static/dao/daodejing.png-minwebp.webp)
+
 ## 章节结构
 
 - 《道德经》共 81 章

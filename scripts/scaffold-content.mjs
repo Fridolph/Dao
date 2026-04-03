@@ -1,11 +1,12 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-import { daoDeJingChapters } from '../docs/.vitepress/data/dao-de-jing-chapters.mjs'
-import { topicPages } from '../docs/.vitepress/data/topic-pages.mjs'
-import { yijingConceptPages } from '../docs/.vitepress/data/yijing-concepts.mjs'
+import { daoDeJingChapters } from '../src/.vitepress/data/dao-de-jing-chapters.mjs'
+import { topicPages } from '../src/.vitepress/data/topic-pages.mjs'
+import { yijingConceptPages } from '../src/.vitepress/data/yijing-concepts.mjs'
 
 const root = process.cwd()
+const sourceRoot = path.join(root, 'src')
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true })
@@ -167,21 +168,21 @@ for (const chapter of daoDeJingChapters) {
     continue
   }
 
-  const filePath = path.join(root, 'docs', 'daoism', 'texts', 'dao-de-jing', `${chapter.slug}.md`)
+  const filePath = path.join(sourceRoot, 'daoism', 'texts', 'dao-de-jing', `${chapter.slug}.md`)
   if (writeIfMissing(filePath, buildDaoDeJingChapterContent(chapter))) {
     createdCount += 1
   }
 }
 
 for (const topic of topicPages) {
-  const filePath = path.join(root, 'docs', ...topic.path.replace(/^\//, '').split('/')) + '.md'
+  const filePath = path.join(sourceRoot, ...topic.path.replace(/^\//, '').split('/')) + '.md'
   if (writeIfMissing(filePath, buildTopicContent(topic))) {
     createdCount += 1
   }
 }
 
 for (const concept of yijingConceptPages) {
-  const filePath = path.join(root, 'docs', ...concept.path.replace(/^\//, '').split('/')) + '.md'
+  const filePath = path.join(sourceRoot, ...concept.path.replace(/^\//, '').split('/')) + '.md'
   if (writeIfMissing(filePath, buildConceptContent(concept))) {
     createdCount += 1
   }
@@ -189,7 +190,7 @@ for (const concept of yijingConceptPages) {
 
 const zhuangziSections = [
   {
-    filePath: path.join(root, 'docs', 'daoism', 'texts', 'zhuang-zi', 'chapters.md'),
+    filePath: path.join(sourceRoot, 'daoism', 'texts', 'zhuang-zi', 'chapters.md'),
     content: `---
 title: 庄子篇章索引
 description: 待整理庄子内篇、外篇、杂篇的阅读入口。
@@ -216,7 +217,7 @@ aliases:
 `
   },
   {
-    filePath: path.join(root, 'docs', 'daoism', 'texts', 'lie-zi', 'chapters.md'),
+    filePath: path.join(sourceRoot, 'daoism', 'texts', 'lie-zi', 'chapters.md'),
     content: `---
 title: 列子篇章索引
 description: 待整理列子各篇阅读入口。

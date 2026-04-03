@@ -8,6 +8,7 @@ export default defineConfig({
   title: 'Dao',
   description: '一个关于道学、易经与传统智慧的导读型知识站',
   base,
+  outDir: '../docs',
   cleanUrls: true,
   lastUpdated: true,
   vite: {
